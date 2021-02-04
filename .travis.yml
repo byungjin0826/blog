@@ -15,3 +15,10 @@ deploy:
   on:
     branch: master
     target_branch: gh-pages
+
+env:
+  global:
+    secure: G5cSrxl4ipSQ84ZC/+dokER/unKH8uZhDV8WSl0u5UPEO95xQeaFEynOzPYC0pHrGNIN45sxpJa1TEDCDrsCq7qJsEvXO+546HdMUt12/myZyv86bCAwpnU+jKHF4VJty7waz55BGhfLoTa3DS79k0oHHjbyOhNJIlIUDe1ykpkEQ8ch6xsqCuNOhIBcf/HKI86k8uPzHlp1B1WtFHCB4wI1oSGDUc2sFbS4aVIyrBwuieHLvjjh6m6ZPib0VNtwRpOVt2PDDGa46VSp08NqFndAJlG4viQb3hsWIH8tijDUxDxPP7OtffPyG7no53ylRc5AD7MbcSLANXHe4kttO8NfIAdBHJ5+dZc9e47Cv9CAMwPETDMvRr30RxY/elDgKY4UPQj8lKGGTHQTZyGALFADtTkXTkkcI5K4/q04Im/dHxDWewIC7wq6xlMK11CF8X3Cu4CDZKxjVR0fK+UmLncPWqboh5bJdQeaH/7/ok1NRKeUd8lP5uztqp2Xj8kWOb3FgelS/CoXi8LDkDSigvKTbsaNSyAV0b66VHCx0GFldT/SUb4W/nlZi/PZvcWI3i/22lMCGtDtoi1uGdottI7yto004egsJLI2bm6474qAYIGSswiSC34CGM1l9ATEFY2kyLxz+VAIQ22Cs9EGCrOHlTs3nugf4iy3W3Gs87E=
+  branches:
+    only:
+      - master
