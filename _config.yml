@@ -173,7 +173,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : byungjin0826 # Google Analytics id for the site
+    tracking_id : 161909207 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
