@@ -201,6 +201,7 @@ exclude:
   - /test
   - /vendor
   - /_drafts
+  - /_papers
 
 defaults:
   - scope:
